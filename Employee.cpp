@@ -18,3 +18,19 @@ std::string Employee::getPassword() const {
 Role Employee::getRole() const {
     return role;
 }
+
+void Employee::setName(const std::string& name) {
+    this->name = name;
+}
+
+void Employee::setUsername(const std::string& username) {
+    this->username = username;
+}
+
+void Employee::setPassword(const std::string& password) {
+    this->password = password;
+}
+
+void Employee::setRole(Role role) {
+    this->role = role;
+}
