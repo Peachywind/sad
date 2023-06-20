@@ -1,0 +1,15 @@
+﻿  Accountant.cpp
+  AdminManager.cpp
+  Chef.cpp
+  dwfwef.cpp
+D:\C##\dwfwef\dwfwef.cpp(99,21): error C2661: Product::Product: нет перегруженной функции, принимающей 4 аргументов
+D:\C##\dwfwef\dwfwef.cpp(99,21): message : при попытке сопоставить список аргументов "(std::string, std::string, double, double)"
+D:\C##\dwfwef\dwfwef.cpp(126,13): error C2374: product1: переопределение; множественная инициализация
+D:\C##\dwfwef\dwfwef.cpp(99,13): message : см. объявление "product1"
+D:\C##\dwfwef\dwfwef.cpp(128,49): error C2065: updatedProduct: необъявленный идентификатор
+  InventoryManager.cpp
+  Product.cpp
+D:\C##\dwfwef\Product.cpp(2,10): error C2084: функция "Product::Product(const std::string &,const std::string &,double)" уже имеет текст реализации
+D:\C##\dwfwef\Product.h(13,5): message : см. предыдущее определение "{ctor}"
+  Supplier.cpp
+  Создание кода...
